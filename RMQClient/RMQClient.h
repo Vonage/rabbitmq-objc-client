@@ -49,39 +49,39 @@
 // under either the MPL or the ASL License.
 // ---------------------------------------------------------------------------
 
-#import <RMQClient/RMQConnection.h>
-#import <RMQClient/RMQErrors.h>
-#import <RMQClient/RMQBasicProperties.h>
-#import <RMQClient/RMQBasicProperties+MergeDefaults.h>
-#import <RMQClient/RMQFrame.h>
-#import <RMQClient/RMQHeartbeat.h>
-#import <RMQClient/RMQMethodDecoder.h>
-#import <RMQClient/RMQMethodMap.h>
-#import <RMQClient/RMQMethods+Convenience.h>
-#import <RMQClient/RMQProtocolHeader.h>
-#import <RMQClient/RMQURI.h>
-#import <RMQClient/RMQAllocatedChannel.h>
-#import <RMQClient/RMQConnectionDelegateLogger.h>
-#import <RMQClient/RMQConnectionRecover.h>
-#import <RMQClient/RMQSuspendResumeDispatcher.h>
-#import <RMQClient/RMQFramesetValidator.h>
-#import <RMQClient/RMQHandshaker.h>
-#import <RMQClient/RMQMultipleChannelAllocator.h>
-#import <RMQClient/RMQReader.h>
-#import <RMQClient/RMQSynchronizedMutableDictionary.h>
-#import <RMQClient/RMQTCPSocketTransport.h>
-#import <RMQClient/RMQUnallocatedChannel.h>
-#import <RMQClient/RMQGCDSerialQueue.h>
-#import <RMQClient/RMQSemaphoreWaiterFactory.h>
-#import <RMQClient/RMQSemaphoreWaiter.h>
-#import <RMQClient/RMQProcessInfoNameGenerator.h>
-#import <RMQClient/RMQQueuingConnectionDelegateProxy.h>
-#import <RMQClient/RMQGCDHeartbeatSender.h>
-#import <RMQClient/RMQTickingClock.h>
-#import <RMQClient/RMQPKCS12CertificateConverter.h>
-#import <RMQClient/RMQTLSOptions.h>
-#import <RMQClient/RMQTransactionalConfirmations.h>
-#import <RMQClient/RMQConfirmationTransaction.h>
+#import <VRMQClient/RMQConnection.h>
+#import <VRMQClient/RMQErrors.h>
+#import <VRMQClient/RMQBasicProperties.h>
+#import <VRMQClient/RMQBasicProperties+MergeDefaults.h>
+#import <VRMQClient/RMQFrame.h>
+#import <VRMQClient/RMQHeartbeat.h>
+#import <VRMQClient/RMQMethodDecoder.h>
+#import <VRMQClient/RMQMethodMap.h>
+#import <VRMQClient/RMQMethods+Convenience.h>
+#import <VRMQClient/RMQProtocolHeader.h>
+#import <VRMQClient/RMQURI.h>
+#import <VRMQClient/RMQAllocatedChannel.h>
+#import <VRMQClient/RMQConnectionDelegateLogger.h>
+#import <VRMQClient/RMQConnectionRecover.h>
+#import <VRMQClient/RMQSuspendResumeDispatcher.h>
+#import <VRMQClient/RMQFramesetValidator.h>
+#import <VRMQClient/RMQHandshaker.h>
+#import <VRMQClient/RMQMultipleChannelAllocator.h>
+#import <VRMQClient/RMQReader.h>
+#import <VRMQClient/RMQSynchronizedMutableDictionary.h>
+#import <VRMQClient/RMQTCPSocketTransport.h>
+#import <VRMQClient/RMQUnallocatedChannel.h>
+#import <VRMQClient/RMQGCDSerialQueue.h>
+#import <VRMQClient/RMQSemaphoreWaiterFactory.h>
+#import <VRMQClient/RMQSemaphoreWaiter.h>
+#import <VRMQClient/RMQProcessInfoNameGenerator.h>
+#import <VRMQClient/RMQQueuingConnectionDelegateProxy.h>
+#import <VRMQClient/RMQGCDHeartbeatSender.h>
+#import <VRMQClient/RMQTickingClock.h>
+#import <VRMQClient/RMQPKCS12CertificateConverter.h>
+#import <VRMQClient/RMQTLSOptions.h>
+#import <VRMQClient/RMQTransactionalConfirmations.h>
+#import <VRMQClient/RMQConfirmationTransaction.h>
 
 //! Project version number for RMQClient.
 FOUNDATION_EXPORT double RMQClientVersionNumber;
@@ -89,6 +89,6 @@ FOUNDATION_EXPORT double RMQClientVersionNumber;
 //! Project version string for RMQClient.
 FOUNDATION_EXPORT const unsigned char RMQClientVersionString[];
 
-// In this header, you should import all the public headers of your framework using statements like #import <RMQClient/PublicHeader.h>
+// In this header, you should import all the public headers of your framework using statements like #import <VRMQClient/PublicHeader.h>
 
 
