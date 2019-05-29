@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
-  s.name             = "RMQClient"
-  s.version          = "0.11.0-rc2"
+  s.name             = "VRMQClient"
+  s.version          = "0.11.0-rc1-vonage"
   s.summary          = "RabbitMQ client"
   s.description      = <<-DESC
   RabbitMQ client for Objective-C and Swift. Developed and supported by the
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.social_media_url = "https://twitter.com/rabbitmq"
   s.ios.deployment_target = "10.0"
   s.osx.deployment_target = "10.11"
-  s.source           = { :git => "https://github.com/rabbitmq/rabbitmq-objc-client.git", :tag => "v#{s.version}" }
+  s.source           = { :git => "git@github.com:Vonage/rabbitmq-objc-client.git", :tag => "v#{s.version}" }
   s.source_files     = "RMQClient", "RMQClient/**/*.{h,m}"
   s.dependency       "JKVValue", "~> 1.3.3"
   s.dependency       "CocoaAsyncSocket", "~> 7.6.3"
