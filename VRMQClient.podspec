@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.author           = { "RabbitMQ team" => "rabbitmq-users@googlegroups.com" }
   s.social_media_url = "https://twitter.com/rabbitmq"
   s.ios.deployment_target = "10.0"
-  s.osx.deployment_target = "10.11"
+  #s.osx.deployment_target = "10.11"
   s.source           = { :git => "git@github.com:Vonage/rabbitmq-objc-client.git", :tag => "v#{s.version}" }
   s.source_files     = "RMQClient", "RMQClient/**/*.{h,m}"
   s.dependency       "JKVValue", "~> 1.3.3"
